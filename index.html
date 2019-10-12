@@ -2,6 +2,20 @@
 <html>
 <head>
 	<title>CodeAttack</title>
+<style>
+    .cyanK{
+    background-color: hsl(180, 100%, 50%)
+;
+  }
+h1 {
+
+  text-shadow: 2px 2px;
+}
+<!--.colorK {
+    background-color: #0F0;
+  }-->
+
+</style>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,9 +25,9 @@
 <body>
 
 <!-- Navbar content -->
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container">
-    <div class="navbar-header">
+<nav class="navbar navbar-dark bg-dark  ">
+  <div class="container cyanK">
+    <div class="navbar-header " >
       <a class="navbar-brand" href="#">About </a>
     </div>
   </div>
@@ -23,8 +37,11 @@
  	<div class="row">
  		<div class="col-lg-12">
  			<div class="content">
- 				<h1>CodeAttack Community <i class="fas fa-code"></i></h1>
- 				<h3>"Talk is cheap, Show me the code."</h3>
+ 				<h1>
+                                                                         <img src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_150,h_150/https://freshlybuilt.com/wp-content/uploads/group-avatars/1/5d68c4383068b-bpfull.png" alt="THE CodeAttack Community" height="42" width="42" >
+                                                                         CodeAttack Community <i class="fas fa-code"></i>
+                                                                    </h1>
+ 				<marquee direction="right" behavior=scroll  scrollamount="20"><h3 style="color: green;">"Talk is cheap, Show me the code....."</h3></marquee>
  				<hr>
  				<a class="btn btn-success btn-lg" href="{{url_for('explore')}}">Explore More</a>
  			</div>
