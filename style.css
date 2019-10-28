@@ -11,7 +11,7 @@
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
     background: url(http://www.drizgroup.com/uploads/6/4/4/7/6447121/tdg-remote-code-execution-min_orig.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     padding-top: 6%;
     padding-bottom: 5%;
@@ -19,4 +19,31 @@
     height: 100%;
     font-family: "Lato";
     color: white;
+}
+
+.q{
+word-spacing: 30px;
+}
+
+h3{
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'Lobster', cursive;
+  color:#fc0ddc;
+}
+
+h1{
+  font-family: 'IBM Plex Mono', monospace;
+  color:#32a6a8;
+}
+
+.jessus:hover{
+    font-family: 'IBM Plex Mono', monospace;
+    color:#0000;
+
+}
+
+a{
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'Lobster', cursive;
+  color:#34ebde;
 }
