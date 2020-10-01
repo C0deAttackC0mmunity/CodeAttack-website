@@ -1,0 +1,25 @@
+{
+  "name": "codeattack.co.in",
+  "version": "1.0.0",
+  "description": "CodeAttack Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C0deAttackC0mmunity/CodeAttack.co.in.git"
+  },
+  "author": "CodeAttack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C0deAttackC0mmunity/CodeAttack.co.in/issues"
+  },
+  "homepage": "https://github.com/C0deAttackC0mmunity/CodeAttack.co.in#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "passport": "^0.4.1"
+  }
+}
